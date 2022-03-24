@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "grpc.port",
+      "type": "int",
+      "description": "Grpc server port."
+    },
+    {
+      "name": "grpc.register-raw",
+      "type": "boolean",
+      "description": "Whether to register raw grpc services."
+    }
+  ]
+}

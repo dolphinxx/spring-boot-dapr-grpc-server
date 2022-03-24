@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "com.github.dolphinxx.grpc";
+
+option java_outer_classname = "GreetingProtos";
+
+service Greeter {
+  rpc greeting (GreetingRequest) returns (GreetingResponse) {}
+}
+
+message GreetingRequest {
+  string name = 1;
+}
+
+message GreetingResponse {
+  string message = 1;
+}
